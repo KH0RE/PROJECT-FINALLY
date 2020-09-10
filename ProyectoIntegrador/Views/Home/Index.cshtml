@@ -1,0 +1,53 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<br /><br />
+    <h1>
+        <B><FONT COLOR="white">WELCOME WARRIOR </FONT>
+    </h1>
+    <style>
+        html, body {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        }
+
+        #full-screen-background-image {
+        z-index: -999;
+        width: 100%;
+        height: auto;
+        position: fixed;
+        top: 0;
+        left: 0;
+        }
+    </style>
+    <head>
+        
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <img alt="full screen background image" src="~/img/el.jpg" id="full-screen-background-image" />
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-4" style="  background-color: #9F9BE7">
+                    <h1>MISION</h1>
+                    <p>Divertir al jugador con este juego de aventura</p>
+                    <img src="~/img/juego.jpg" width="300" height="300">
+                </div>
+                <div class="col-lg-4" style="    background-color: #9AA7EA">
+                    <h1>NUBA</h1>
+                    <p>El guerro </p>
+                    
+                    <img src="~/img/war.jpg" width="300" height="300">
+                </div>
+                <div class="col-lg-4" style="    background-color: #9FCFE7">
+                    <h1>OBJETIVO</h1>
+                    <p>Hacer que te quedes en casa jugando y evites el covid-19 para vencerlo juntos</p>
+                    <img src="~/img/covid.jpg" width="300" height="250">
+                </div>
+            </div>
+        </div>
+    </body>
